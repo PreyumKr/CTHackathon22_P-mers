@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Krishi Sahayta</string>
+    <string name="hyperlink"><a href="login.xml">login</a></string>
+    <string name="hyperlink1"><a href="activity_main.xml">Register</a></string>
+    <string name="hyperlink2"><a href="www.google.com">Know more</a></string>
+    <string name="hyperlink3"><a href ="www.google.com">Buy now</a></string>
+    <string name="hyperlink4"><a href ="www.google.com">Contact Us</a></string>
+</resources>
