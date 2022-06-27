@@ -5,31 +5,31 @@
     android:background="@drawable/ft1"
     android:layout_height="match_parent">
 
-    <TextView
+    <EditText
         android:id="@+id/textView7"
         android:layout_width="259dp"
         android:layout_height="37dp"
         android:layout_marginLeft="140dp"
         android:layout_marginTop="130dp"
-        android:paddingLeft="11dp"
         android:background="@drawable/bg"
         android:hint="Email id"
+        android:paddingLeft="11dp"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         android:textSize="18dp"
         tools:layout_editor_absoluteX="129dp"
         tools:layout_editor_absoluteY="137dp" />
 
-    <TextView
+    <EditText
         android:id="@+id/textView8"
         android:layout_width="259dp"
         android:layout_height="37dp"
-        android:paddingLeft="11dp"
         android:layout_below="@+id/textView7"
         android:layout_marginLeft="140dp"
         android:layout_marginTop="20dp"
         android:background="@drawable/bg"
         android:hint="Password"
+        android:paddingLeft="11dp"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         android:textSize="18dp"
@@ -48,7 +48,7 @@
         android:text="Login"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textSize="14dp"
+        android:textSize="12dp"
         tools:layout_editor_absoluteX="131dp"
         tools:layout_editor_absoluteY="231dp" />
 

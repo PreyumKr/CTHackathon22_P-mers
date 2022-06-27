@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+    <EditText
         android:id="@+id/textView"
         android:layout_width="259dp"
         android:layout_height="37dp"
@@ -24,7 +24,7 @@
         tools:layout_editor_absoluteX="77dp"
         tools:layout_editor_absoluteY="72dp" />
 
-    <TextView
+    <EditText
         android:id="@+id/textView2"
         android:layout_width="259dp"
         android:layout_height="37dp"
@@ -41,7 +41,7 @@
         tools:layout_editor_absoluteX="76dp"
         tools:layout_editor_absoluteY="123dp" />
 
-    <TextView
+    <EditText
         android:id="@+id/textView3"
 
         android:layout_width="259dp"
@@ -49,9 +49,9 @@
         android:layout_below="@+id/textView2"
         android:layout_marginLeft="140dp"
         android:layout_marginTop="20dp"
-        android:paddingLeft="11dp"
         android:background="@drawable/bg"
         android:hint="Password"
+        android:paddingLeft="11dp"
         android:textAllCaps="false"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
@@ -59,7 +59,7 @@
         tools:layout_editor_absoluteX="77dp"
         tools:layout_editor_absoluteY="179dp" />
 
-    <TextView
+    <EditText
         android:id="@+id/textView4"
         android:layout_width="259dp"
         android:layout_height="37dp"
@@ -79,7 +79,7 @@
     <Button
         android:id="@+id/button"
         android:layout_width="259dp"
-        android:layout_height="37dp"
+        android:layout_height="39dp"
         android:layout_below="@+id/textView4"
         android:layout_marginLeft="140dp"
         android:layout_marginTop="20dp"
@@ -88,7 +88,7 @@
         android:text="Register"
         android:textAlignment="center"
         android:textAllCaps="false"
-        android:textSize="14dp"
+        android:textSize="12dp"
         tools:layout_editor_absoluteX="74dp"
         tools:layout_editor_absoluteY="305dp" />
 

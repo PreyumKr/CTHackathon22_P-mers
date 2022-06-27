@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    tools:context=".shop">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:text=" Krishi Sahayta"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="50dp"
+            android:textStyle="bold"
+
+            />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/tv1"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/tomato" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="320dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/tv1"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="40dp"
+        android:text="\nTomato seeds\n\n2$"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/cabbage" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="320dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/tv2"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="20dp"
+        android:text="\nCabbage\n\n3$"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/capsicum" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="320dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/tv3"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="20dp"
+        android:text="\nCapsicum seeds\n\n1$"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/cauliflower" />
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="320dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/tv4"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="20dp"
+        android:text="\nCauliflower\n\n2$"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    </RelativeLayout>
+
+</ScrollView>
